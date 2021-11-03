@@ -16,7 +16,7 @@ header {
 }
 
 .navbar-brand {
-    padding: 10px 15px;
+    margin-left: 25px;
 }
 
 .navbar-brand>a {
@@ -32,9 +32,17 @@ header {
     line-height: 30px;
 }
 
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 6px;
+}
+
 .nav>li {
     border: 1px solid black;
     background-color: #fff;
+}
+
+#nav-list li:last-child {
+    border-bottom: 2px solid black;
 }
 
 #nav-list a:hover {
@@ -63,9 +71,13 @@ header {
 }
 
 .row {
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#content p {
+    font-weight: bold;
 }
 
 .content-bg {
@@ -77,4 +89,26 @@ header {
 
 h3 {
     text-align: center;
+}
+
+.container {
+    max-width: 100%;
+}
+
+@media (min-width: 1300px) {
+    .container {
+        width: 1270px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1380px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .container {
+        width: 1480px;
+    }
 }
