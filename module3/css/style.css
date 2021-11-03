@@ -81,7 +81,6 @@ header {
 }
 
 .content-bg {
-    height: 2000px;
     padding: 20px 40px 20px 40px;
     background-color: rgba(0, 0, 0, 0.3);
     overflow: hidden;
